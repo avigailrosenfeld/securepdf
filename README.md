@@ -15,7 +15,7 @@
 -  Configure imagemagick to allow PDF reading, Add &lt;policy domain="coder" rights="read" pattern="PDF"&gt;  to the policy at /etc/ImageMagick-6/policy.xml see more details here : https://stackoverflow.com/questions/52703123/override-default-imagemagick-policy-xml
 - Restart php-fpm or your web server.
 - cd [moodle]/mod/
-- git clone https://github.com/yedidiaklein/moodle-mod_securepdf.git securepdf
+- git clone https://github.com/avigailrosenfeld/securepdf.git securepdf
 - Go to your moodle Notification Page and install. 
 
 # Development
